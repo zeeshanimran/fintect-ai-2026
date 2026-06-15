@@ -143,3 +143,6 @@ Typed prototype data is separated from page components under `src/lib/mock-data/
 A production engagement would begin by validating priority users, workflows, regulatory requirements, data boundaries, and integrations. Delivery can then proceed in demonstrable product increments, establishing the necessary security and architecture foundations as each high-value workflow is introduced.
 
 The result is a rapid V1 that can evolve into a maintainable long-term platform rather than a disposable proof of concept.
+
+
+
