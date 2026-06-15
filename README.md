@@ -6,6 +6,12 @@
 
 This is not a chatbot placed beside a dashboard. AI is embedded directly into financial workflows, where it can identify risk, retrieve approved company knowledge, explain recommendations, and route important decisions to the right human reviewer.
 
+## Dashboard Preview
+
+[![FinTech-AI 2026 operations dashboard](public/readme/dashboard-overview.png)](http://localhost:3000/dashboard)
+
+The operations dashboard brings financial KPIs, workflow health, explainable AI recommendations, risk flags, recent activity, and upcoming subscription events into one decision-ready workspace.
+
 ## The Opportunity
 
 Finance teams still operate across fragmented accounting systems, spreadsheets, document stores, email approvals, and disconnected reporting tools. This creates slow decisions, duplicated effort, limited auditability, and unnecessary operational risk.
@@ -143,6 +149,5 @@ Typed prototype data is separated from page components under `src/lib/mock-data/
 A production engagement would begin by validating priority users, workflows, regulatory requirements, data boundaries, and integrations. Delivery can then proceed in demonstrable product increments, establishing the necessary security and architecture foundations as each high-value workflow is introduced.
 
 The result is a rapid V1 that can evolve into a maintainable long-term platform rather than a disposable proof of concept.
-
 
 
