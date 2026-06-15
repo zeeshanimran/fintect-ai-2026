@@ -8,7 +8,7 @@ This is not a chatbot placed beside a dashboard. AI is embedded directly into fi
 
 ## Dashboard Preview
 
-[![FinTech-AI 2026 operations dashboard](public/readme/dashboard-overview.png)](http://localhost:3000/dashboard)
+[![FinTech-AI 2026 operations dashboard](public/readme/dashboard-overview.png)](https://zeeshanimran.github.io/fintect-ai-2026/dashboard/)
 
 The operations dashboard brings financial KPIs, workflow health, explainable AI recommendations, risk flags, recent activity, and upcoming subscription events into one decision-ready workspace.
 
@@ -109,11 +109,47 @@ npm run dev
 
 Open [http://localhost:3000](http://localhost:3000).
 
+Live GitHub Pages deployment:
+
+[https://zeeshanimran.github.io/fintect-ai-2026/](https://zeeshanimran.github.io/fintect-ai-2026/)
+
 Create a production build with:
 
 ```bash
 npm run build
 npm start
+```
+
+## Deploy to GitHub Pages
+
+The project includes a GitHub Actions workflow at `.github/workflows/deploy-pages.yml`. It creates a static Next.js export and deploys the generated `out/` directory whenever changes are pushed to `main`.
+
+One-time GitHub setup:
+
+1. Open the repository at `https://github.com/zeeshanimran/fintect-ai-2026`.
+2. Go to **Settings → Pages**.
+3. Under **Build and deployment**, set **Source** to **GitHub Actions**.
+4. Push the deployment files to `main`.
+5. Open the **Actions** tab and wait for **Deploy FinTech-AI 2026 to GitHub Pages** to finish.
+
+Push the prepared deployment:
+
+```bash
+git add .
+git commit -m "Configure GitHub Pages deployment"
+git push origin main
+```
+
+The published site will be available at:
+
+```text
+https://zeeshanimran.github.io/fintect-ai-2026/
+```
+
+To verify the GitHub-targeted static export locally:
+
+```bash
+GITHUB_ACTIONS=true npm run build
 ```
 
 ## Clickable Demo Interactions
@@ -149,5 +185,4 @@ Typed prototype data is separated from page components under `src/lib/mock-data/
 A production engagement would begin by validating priority users, workflows, regulatory requirements, data boundaries, and integrations. Delivery can then proceed in demonstrable product increments, establishing the necessary security and architecture foundations as each high-value workflow is introduced.
 
 The result is a rapid V1 that can evolve into a maintainable long-term platform rather than a disposable proof of concept.
-
 
