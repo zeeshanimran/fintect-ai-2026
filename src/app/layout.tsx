@@ -6,7 +6,9 @@ export const metadata: Metadata = {
   description: "AI-enhanced financial operations for modern finance teams.",
 };
 
-export default function RootLayout({ children }: Readonly<{ children: React.ReactNode }>) {
+export default function RootLayout({
+  children,
+}: Readonly<{ children: React.ReactNode }>) {
   return (
     <html lang="en">
       <body>{children}</body>

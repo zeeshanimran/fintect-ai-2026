@@ -12,16 +12,30 @@ export const automationSavings = [
 ];
 
 export const revenueData = [
-  { m: "Jan", v: 82 }, { m: "Feb", v: 91 }, { m: "Mar", v: 88 }, { m: "Apr", v: 106 },
-  { m: "May", v: 118 }, { m: "Jun", v: 126 }, { m: "Jul", v: 143 },
+  { m: "Jan", v: 82 },
+  { m: "Feb", v: 91 },
+  { m: "Mar", v: 88 },
+  { m: "Apr", v: 106 },
+  { m: "May", v: 118 },
+  { m: "Jun", v: 126 },
+  { m: "Jul", v: 143 },
 ];
 
 export const riskData = [
-  { m: "Jan", low: 42, high: 16 }, { m: "Feb", low: 48, high: 13 }, { m: "Mar", low: 46, high: 19 },
-  { m: "Apr", low: 55, high: 12 }, { m: "May", low: 58, high: 9 }, { m: "Jun", low: 64, high: 7 },
+  { m: "Jan", low: 42, high: 16 },
+  { m: "Feb", low: 48, high: 13 },
+  { m: "Mar", low: 46, high: 19 },
+  { m: "Apr", low: 55, high: 12 },
+  { m: "May", low: 58, high: 9 },
+  { m: "Jun", low: 64, high: 7 },
 ];
 
 export const volumeData = [
-  { m: "Mon", v: 130 }, { m: "Tue", v: 188 }, { m: "Wed", v: 164 }, { m: "Thu", v: 220 },
-  { m: "Fri", v: 194 }, { m: "Sat", v: 88 }, { m: "Sun", v: 102 },
+  { m: "Mon", v: 130 },
+  { m: "Tue", v: 188 },
+  { m: "Wed", v: 164 },
+  { m: "Thu", v: 220 },
+  { m: "Fri", v: 194 },
+  { m: "Sat", v: 88 },
+  { m: "Sun", v: 102 },
 ];
